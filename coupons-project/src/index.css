@@ -1,0 +1,8 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("../public/img/5580.jpg");
+    background-position: center center;
+    background-size: cover;
+}

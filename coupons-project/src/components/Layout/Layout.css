@@ -1,0 +1,30 @@
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+        "header header"
+        "aside main "
+        "footer footer";
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+.main.login-page {
+    width: 100%;
+}
+
+footer {
+    grid-area: footer;
+}
